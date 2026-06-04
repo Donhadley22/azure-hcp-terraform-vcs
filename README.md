@@ -193,10 +193,6 @@ Add Azure authentication values as environment variables and mark them sensitive
 
 ![Add an Azure authentication variable](docs/images/12-hcp-add-azure-variable.png)
 
-The final workspace variables page should include both Terraform input variables and Azure authentication environment variables.
-
-![Workspace variables list](docs/images/13-hcp-workspace-variables.png)
-
 The captured setup also shows the Azure credentials listed as environment variables and marked sensitive.
 
 ![Azure provider credentials as environment variables](docs/images/14-hcp-dynamic-provider-credentials.png)
@@ -309,7 +305,6 @@ After confirmation, HCP Terraform destroys the managed Azure resources and recor
 | Workspace configuration | ![Workspace configuration](docs/images/10-hcp-workspace-configuration.png) |
 | Terraform input variables | ![Terraform input variables](docs/images/11-hcp-terraform-input-variables.png) |
 | Azure variable entry | ![Azure variable entry](docs/images/12-hcp-add-azure-variable.png) |
-| Workspace variables | ![Workspace variables](docs/images/13-hcp-workspace-variables.png) |
 | Azure environment variables | ![Azure environment variables](docs/images/14-hcp-dynamic-provider-credentials.png) |
 | Configuration upload | ![Configuration upload](docs/images/15-hcp-configuration-uploaded.png) |
 | Plan result | ![Plan result](docs/images/16-hcp-plan-eight-resources.png) |
